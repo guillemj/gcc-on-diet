@@ -1,0 +1,27 @@
+#!/bin/sh
+# postinst script for gcc-on-diet
+
+set -e
+
+case "$1" in
+  triggered)
+    find /usr/lib/gcc/*/5/ -maxdepth 1 -type f -size +10M -print0 | xargs -0 \
+      strip --strip-unneeded \
+            --remove-section=.comment --remove-section=.note || true
+  ;;
+
+  configure)
+  ;;
+
+  abort-upgrade|abort-remove|abort-deconfigure)
+  ;;
+
+  *)
+    echo "postinst called with unknown argument '$1'" >&2
+    exit 1
+  ;;
+esac
+
+#DEBHELPER#
+
+exit 0
