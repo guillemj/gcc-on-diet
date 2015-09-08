@@ -4,13 +4,10 @@
 set -e
 
 case "$1" in
-  triggered)
+  configure|triggered)
     find /usr/lib/gcc/*/5/ -maxdepth 1 -type f -size +10M -print0 | xargs -0 \
       strip --strip-unneeded \
             --remove-section=.comment --remove-section=.note || true
-  ;;
-
-  configure)
   ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)

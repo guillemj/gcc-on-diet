@@ -1,3 +1,9 @@
+gcc-on-diet (0.1) unstable; urgency=low
+
+  * Perform the stripping also when configuring gcc-5-on-diet itself.
+
+ -- Guillem Jover <guillem@hadrons.org>  Tue, 08 Sep 2015 18:36:22 +0200
+
 gcc-on-diet (0) unstable; urgency=low
 
   * Initial Release.
