@@ -4,9 +4,9 @@ Priority: optional
 Maintainer: Guillem Jover <guillem@hadrons.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.6
-Homepage: http://www.hadrons.org/software/debian/gcc-on-diet/
+Homepage: https://www.hadrons.org/software/debian/gcc-on-diet/
 Vcs-Git: git://git.hadrons.org/git/debian/gcc-on-diet.git
-Vcs-Browser: http://git.hadrons.org/cgit/debian/gcc-on-diet.git
+Vcs-Browser: https://git.hadrons.org/cgit/debian/gcc-on-diet.git
 
 Package: gcc-5-on-diet
 Architecture: all
