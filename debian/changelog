@@ -1,6 +1,8 @@
 gcc-on-diet (0.2) UNRELEASED; urgency=medium
 
   * Use https in hadrons.org URLs.
+  * Add support for gcc-6 and rename binary package gcc-5-on-diet to
+    gcc-on-diet.
 
  -- Guillem Jover <guillem@hadrons.org>  Tue, 22 Dec 2015 22:03:09 +0100
 

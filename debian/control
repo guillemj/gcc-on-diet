@@ -8,10 +8,10 @@ Homepage: https://www.hadrons.org/software/debian/gcc-on-diet/
 Vcs-Git: git://git.hadrons.org/git/debian/gcc-on-diet.git
 Vcs-Browser: https://git.hadrons.org/cgit/debian/gcc-on-diet.git
 
-Package: gcc-5-on-diet
+Package: gcc-on-diet
 Architecture: all
-Depends: ${misc:Depends}, binutils-multiarch
+Depends: ${misc:Depends}, binutils-multiarch, gcc-5 | gcc-6
 Description: Strip gcc executables on install or upgrade
- Since gcc-5, the gcc exetuables are not stripped anymore, which use a
+ Since gcc-5 the gcc executables are not stripped anymore, which use a
  considerable amount of disk space, this package makes sure that those
  executables are always stripped after installation.
