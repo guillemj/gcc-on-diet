@@ -1,4 +1,5 @@
 files
 gcc-on-diet
+debhelper-build-stamp
 *.substvars
 *.log
