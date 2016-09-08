@@ -1,4 +1,4 @@
-gcc-on-diet (0.3) UNRELEASED; urgency=medium
+gcc-on-diet (0.3) unstable; urgency=medium
 
   * Use https for Vcs-Git URL.
   * Bump Standards-Version to 3.9.8.
@@ -6,7 +6,7 @@ gcc-on-diet (0.3) UNRELEASED; urgency=medium
     - Add binutils alternative to binutils-multiarch.
     - Add gcc-7 just to be future-proof.
 
- -- Guillem Jover <guillem@hadrons.org>  Fri, 09 Sep 2016 01:17:15 +0200
+ -- Guillem Jover <guillem@hadrons.org>  Fri, 09 Sep 2016 01:22:07 +0200
 
 gcc-on-diet (0.2) unstable; urgency=medium
 
