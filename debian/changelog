@@ -1,3 +1,10 @@
+gcc-on-diet (0.4) UNRELEASED; urgency=medium
+
+  * Update dependencies:
+    - Add gcc-8, gcc-9 and gcc-10 just to be future-proof.
+
+ -- Guillem Jover <guillem@hadrons.org>  Sun, 01 Oct 2017 23:52:12 +0200
+
 gcc-on-diet (0.3) unstable; urgency=medium
 
   * Use https for Vcs-Git URL.
