@@ -3,6 +3,7 @@ gcc-on-diet (0.4) UNRELEASED; urgency=medium
   * Update dependencies:
     - Add gcc-8, gcc-9 and gcc-10 just to be future-proof.
   * Bump debhelper compatibility level to 10.
+  * Bump Standards-Version to 4.1.1.
 
  -- Guillem Jover <guillem@hadrons.org>  Sun, 01 Oct 2017 23:52:12 +0200
 
