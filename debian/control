@@ -2,7 +2,8 @@ Source: gcc-on-diet
 Section: admin
 Priority: optional
 Maintainer: Guillem Jover <guillem@hadrons.org>
-Build-Depends: debhelper (>= 9)
+Build-Depends:
+ debhelper (>= 10),
 Standards-Version: 3.9.8
 Homepage: https://www.hadrons.org/software/debian/gcc-on-diet/
 Vcs-Git: https://git.hadrons.org/git/debian/gcc-on-diet.git
