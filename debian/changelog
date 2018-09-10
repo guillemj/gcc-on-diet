@@ -1,6 +1,7 @@
 gcc-on-diet (0.5) UNRELEASED; urgency=medium
 
   * Add -r to xargs in postinst. Thanks to gregor herrmann <gregoa@debian.org>.
+  * Namespace debhelper files with the binary package name.
 
  -- Guillem Jover <guillem@hadrons.org>  Tue, 11 Sep 2018 00:49:33 +0200
 
