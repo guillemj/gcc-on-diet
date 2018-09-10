@@ -5,6 +5,7 @@ gcc-on-diet (0.5) UNRELEASED; urgency=medium
   * Bump debhelper compatibility level to 11.
   * Bump Standards-Version to 4.2.1.
   * Update copyright years.
+  * Set R³ to no.
 
  -- Guillem Jover <guillem@hadrons.org>  Tue, 11 Sep 2018 00:49:33 +0200
 
