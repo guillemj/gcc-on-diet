@@ -3,7 +3,7 @@ Section: admin
 Priority: optional
 Maintainer: Guillem Jover <guillem@hadrons.org>
 Build-Depends:
- debhelper (>= 10),
+ debhelper (>= 11),
 Standards-Version: 4.2.1
 Homepage: https://www.hadrons.org/software/debian/gcc-on-diet/
 Vcs-Git: https://git.hadrons.org/git/debian/gcc-on-diet.git
