@@ -6,7 +6,7 @@ gcc-on-diet (0.4) unstable; urgency=medium
   * Bump Standards-Version to 4.1.1.
   * Update copyright years.
 
- -- Guillem Jover <guillem@debian.org>  Mon, 02 Oct 2017 00:15:44 +0200
+ -- Guillem Jover <guillem@hadrons.org>  Mon, 02 Oct 2017 00:15:44 +0200
 
 gcc-on-diet (0.3) unstable; urgency=medium
 
