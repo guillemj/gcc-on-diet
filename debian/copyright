@@ -1,4 +1,5 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://git.hadrons.org/cgit/debian/gcc-on-diet.git/
 Upstream-Name: gcc-on-diet
 
 Files: *
