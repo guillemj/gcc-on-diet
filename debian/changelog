@@ -1,3 +1,9 @@
+gcc-on-diet (0.6) UNRELEASED; urgency=medium
+
+  * Switch to debhelper-compat (= 12) in Build-Depends from debian/compat.
+
+ -- Guillem Jover <guillem@hadrons.org>  Mon, 07 Oct 2019 03:13:42 +0200
+
 gcc-on-diet (0.5) unstable; urgency=medium
 
   * Add -r to xargs in postinst. Thanks to gregor herrmann <gregoa@debian.org>.
