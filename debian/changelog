@@ -4,6 +4,7 @@ gcc-on-diet (0.7) UNRELEASED; urgency=medium
   * Switch to Standards-Version to 4.5.1.
   * Add gcc-12 | gcc-13 | gcc-14 to Depends to be future-proof.
   * Decapitalize first word in package synopsis.
+  * Update copyright years.
 
  -- Guillem Jover <guillem@hadrons.org>  Wed, 06 Jan 2021 18:48:01 +0100
 

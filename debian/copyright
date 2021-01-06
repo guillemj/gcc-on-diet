@@ -4,7 +4,7 @@ Upstream-Name: gcc-on-diet
 
 Files: *
 Copyright:
- Copyright © 2016-2019 Guillem Jover <guillem@hadrons.org>
+ Copyright © 2016-2021 Guillem Jover <guillem@hadrons.org>
 License: MIT
 
 License: MIT
