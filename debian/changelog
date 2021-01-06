@@ -1,6 +1,7 @@
 gcc-on-diet (0.7) UNRELEASED; urgency=medium
 
   * Switch to debhelper-compat 13.
+  * Switch to Standards-Version to 4.5.1.
 
  -- Guillem Jover <guillem@hadrons.org>  Wed, 06 Jan 2021 18:48:01 +0100
 
