@@ -1,3 +1,10 @@
+gcc-on-diet (0.8) UNRELEASED; urgency=medium
+
+  * Remove dependency on gcc compilers, as we can handle other languages,
+    and maintaining the specific gcc versions is a maintenance burden.
+
+ -- Guillem Jover <guillem@hadrons.org>  Tue, 06 Dec 2022 23:45:19 +0100
+
 gcc-on-diet (0.7) unstable; urgency=medium
 
   * Switch to debhelper-compat 13.
