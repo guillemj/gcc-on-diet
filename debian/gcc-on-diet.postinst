@@ -5,9 +5,11 @@ set -e
 
 case "$1" in
   configure|triggered)
-    find /usr/lib/gcc/*/ /usr/libexec/gcc/*/ -maxdepth 2 -type f -size +10M -print0 | xargs -r0 \
-      strip --strip-unneeded \
-            --remove-section=.comment --remove-section=.note || true
+    find /usr/lib/gcc/*/ /usr/libexec/gcc/*/ \
+      -maxdepth 2 -type f -size +10M -print0 \
+      | xargs -r0 \
+          strip --strip-unneeded \
+                --remove-section=.comment --remove-section=.note || true
   ;;
 
   abort-upgrade|abort-remove|abort-deconfigure)
