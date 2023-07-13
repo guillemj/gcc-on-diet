@@ -19,3 +19,6 @@ Description: strip gcc executables on install or upgrade
  Since gcc-5 the gcc executables are not stripped anymore, which use a
  considerable amount of disk space, this package makes sure that those
  executables are always stripped after installation.
+ .
+ Note: This package modifies files after installation from other packages,
+ which means it is expected for «dpkg -V» to report these as such.
